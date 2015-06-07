@@ -87,7 +87,7 @@ int main(void)
     printf("%s\n", file_name);
 
     //system(charadd("wget ",  file_name));
-
+/*
     bzero(buffer, BUFFER_SIZE);
     if(recv(new_server_socket_fd, buffer, BUFFER_SIZE, 0) < 0)
     {
@@ -98,7 +98,7 @@ int main(void)
     bzero(file_name, FILE_NAME_MAX_SIZE+1);
     strncpy(file_name, buffer, strlen(buffer)>FILE_NAME_MAX_SIZE?FILE_NAME_MAX_SIZE:strlen(buffer));
     printf("%s\n", file_name);
-
+*/
    if(strcmp(file_name,"ver")==0)
     	sprintf(buffer,"LDE Cloud 0.1.0 2015");
    else if(strcmp(file_name,"serverinfo")==0)
